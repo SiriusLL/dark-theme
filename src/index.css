@@ -4,7 +4,7 @@
   --text-secondary: #8e05c2;
   --accent: #9aeefc;
   --border: #333;
-  --form-bg: #fff;
+  --form-bg: #f4c4ff;
 }
 
 [data-theme="dark"] {
@@ -13,7 +13,7 @@
   --text-secondary: #8e05c2;
   --accent: #9e4b9e;
   --border: #9aeefc;
-  --from-bg: #333;
+  --form-bg: #333;
 }
 
 * {
@@ -46,19 +46,19 @@ a {
 
 .login h1 {
   text-align: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: -6rem 0 2rem;
   font-size: 48px;
 }
 
 h2 {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
   padding: 1rem;
 }
 
 .theme-toggle i {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-size: 2rem;
   cursor: pointer;
 }
@@ -68,7 +68,7 @@ h2 {
 }
 
 .container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,7 +82,7 @@ h2 {
 }
 
 .top {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -143,7 +143,7 @@ input[type="checkbox"]:checked {
 button {
   background-color: var(--accent);
   border: 1px solid var(--accent);
-  color: #fff;
+  color: var(--text-primary);
   margin: 16px 0;
   padding: 10px;
   border-radius: 10px;
